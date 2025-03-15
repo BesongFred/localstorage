@@ -1,0 +1,113 @@
+
+body{
+
+  background: url("yes.JPG") center no-repeat;
+  border-radius: 40px;
+  text-decoration: solid;
+ font-size: large;
+}
+html {
+    box-sizing: border-box;
+    background: url("yes.JPG") center no-repeat;
+   background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  }
+  
+  .hhhh{
+    background-color: aqua;
+   text-decoration: double;
+   text-decoration-line: underline;
+   text-decoration-color: blueviolet;
+   border-radius: 40px;
+  
+
+  }
+  
+
+  .content {
+    padding: 100px;
+    max-width: 650px;
+    background: rgba(93, 219, 238, 0.95);
+    box-shadow: 0 0 0 10px rgba(178, 237, 2, 0.1);
+    border-radius: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 5px;
+    font-weight: 300px;
+    font-style: italic;
+    font: optional;
+   grid-auto-rows: max-content;
+  }
+  
+  .plates {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    list-style: none;
+  }
+  
+  .plates li {
+    border-bottom: 1px solid rgba(242, 6, 6, 0.2);
+    padding: 10px 0;
+    font-weight: 100;
+    display: flex;
+  }
+  
+  .plates label {
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .plates input {
+    display: none;
+    font-display: 40px;
+  }
+  
+
+  .plates input + label:before {
+    content: "click ";
+  }
+  
+  .topic-weather::before {
+    content: "⛅ ";
+  }
+  
+  .topic-hot::before {
+    content: url("/shared-assets/images/examples/fire.png");
+    margin-right: 6px;
+  }
+  
+  .plates input:checked + label:before {
+    content: "thanks for the ";
+
+  }
+  
+  .add-items {
+    margin-top: 100px;
+    background-color: rgb(128, 241, 217);
+    border-radius: 40px;
+    border-top-left-radius: 40px;
+  }
+  
+  .add-items input {
+    padding: 10px;
+    outline: 0;
+    border: 9px solid rgba(55, 3, 4, 0.1);
+    background-color: rgb(170, 186, 67);
+    border-radius: 20px;
+
+  
+  }
+  .me{
+    background-color: rgb(42, 159, 165);
+text-decoration: underline;
+text-decoration-color: brown;
+
+  }
